@@ -1,0 +1,12 @@
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.colors": [
+    "rgba(255, 129, 57, 0.7)",
+    "rgba(255, 214, 10, 0.7)",
+    "rgba(65, 216, 163, 0.7)",
+    "rgba(0, 176, 255, 0.7)"
+  ],
+  "indentRainbow.errorColor": "rgba(128, 32, 32, 0.6)"
+}
