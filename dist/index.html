@@ -3,91 +3,96 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NgopiKita — Landing Page</title>
-    <link rel="stylesheet" crossorigin href="/assets/index-1ZEPKB_W.css">
+    <title>KOPIDES - Kopi Desa</title>
+    <link rel="stylesheet" crossorigin href="/assets/index-C-PBqAB5.css">
   </head>
 
-  <body class="bg-white text-gray-800 font-sans">
+  <body class="bg-white text-neutral-800 font-sans antialiased">
 
-    <!-- NAVBAR -->
-    <header class="flex items-center justify-between px-6 py-4 max-w-5xl mx-auto">
-      <a href="#" class="text-xl font-bold text-gray-900">☕ NgopiKita</a>
-      <nav class="hidden md:flex gap-6 text-sm text-gray-600">
-        <a href="#" class="hover:text-gray-900">Beranda</a>
-        <a href="#fitur" class="hover:text-gray-900">Fitur</a>
-        <a href="#kontak" class="hover:text-gray-900">Kontak</a>
-      </nav>
-      <a href="#" class="bg-gray-900 text-white text-sm px-4 py-2 rounded-lg hover:bg-gray-700">
-        Pesan Sekarang
-      </a>
+    <!-- ===== NAVBAR ===== -->
+    <header class="sticky top-0 z-50 bg-white border-b border-neutral-100">
+      <div class="flex items-center justify-between px-6 lg:px-8 h-16 max-w-5xl mx-auto">
+        <a href="#" class="flex items-center gap-2.5">
+          <img src="/assets/kopides-CCOIu31t.png" alt="Logo" class="h-8 w-8 rounded-full object-contain" />
+          <span class="text-sm font-bold tracking-wide uppercase">Kopides</span>
+        </a>
+        <nav class="hidden md:flex items-center gap-8">
+          <a href="#" class="text-sm text-neutral-600 hover:text-neutral-900 transition-colors">Beranda</a>
+          <a href="#fitur" class="text-sm text-neutral-600 hover:text-neutral-900 transition-colors">Fitur</a>
+          <a href="#kontak" class="text-sm text-neutral-600 hover:text-neutral-900 transition-colors">Kontak</a>
+        </nav>
+        <a href="#kontak" class="text-sm font-medium bg-neutral-900 text-white px-4 py-2 rounded-md hover:bg-neutral-800 transition-colors">
+          Pesan
+        </a>
+      </div>
     </header>
 
-    <!-- HERO -->
-    <section class="px-6 py-20 text-center max-w-3xl mx-auto">
-      <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-        Kopi enak untuk<br class="hidden md:block" />
-        hari yang produktif ☕
+    <!-- ===== HERO ===== -->
+    <section class="max-w-5xl mx-auto px-6 lg:px-8 pt-24 pb-20 md:pt-32 md:pb-28">
+      <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-neutral-900 leading-[1.1]">
+        Kopi desa untuk<br /> hari yang tenang.
       </h1>
-      <p class="mt-4 text-lg text-gray-600">
-        NgopiKita menyajikan kopi berkualitas dengan harga bersahabat,
-        dibuat oleh barista terbaik untuk menemanimu setiap hari.
+      <p class="mt-5 text-neutral-500 text-lg md:text-xl max-w-lg leading-relaxed">
+        Kopi lokal pilihan dari biji petani desa, disangrai segar setiap hari.
       </p>
-      <div class="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
-        <a href="#" class="bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700">
+      <div class="mt-8 flex items-center gap-4">
+        <a href="#kontak" class="bg-neutral-900 text-white text-sm font-medium px-5 py-2.5 rounded-md hover:bg-neutral-800 transition-colors">
           Pesan Sekarang
         </a>
-        <a href="#fitur" class="border border-gray-300 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">
-          Lihat Fitur
+        <a href="#fitur" class="text-sm font-medium text-neutral-600 hover:text-neutral-900 transition-colors">
+          Lihat produk &rarr;
         </a>
       </div>
     </section>
 
-    <!-- FITUR -->
-    <section id="fitur" class="px-6 py-16 bg-gray-50">
-      <div class="max-w-5xl mx-auto">
-        <h2 class="text-3xl font-bold text-center text-gray-900">Kenapa NgopiKita?</h2>
-        <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- ===== DIVIDER ===== -->
+    <hr class="max-w-5xl mx-auto border-neutral-100" />
 
-          <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 text-center">
-            <div class="text-4xl">⚡</div>
-            <h3 class="mt-4 font-semibold text-lg">Cepat</h3>
-            <p class="mt-2 text-sm text-gray-600">
-              Pesanan dibuat dalam 5 menit, tanpa antre lama.
-            </p>
-          </div>
+    <!-- ===== FITUR ===== -->
+    <section id="fitur" class="max-w-5xl mx-auto px-6 lg:px-8 py-20">
+      <p class="text-sm font-medium text-neutral-400 uppercase tracking-wider">Keunggulan</p>
+      <h2 class="mt-2 text-2xl md:text-3xl font-bold text-neutral-900">Kenapa harus Kopides?</h2>
 
-          <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 text-center">
-            <div class="text-4xl">🌱</div>
-            <h3 class="mt-4 font-semibold text-lg">Biji Lokal</h3>
-            <p class="mt-2 text-sm text-gray-600">
-              Biji kopi dari petani lokal, disangrai segar setiap hari.
-            </p>
-          </div>
-
-          <div class="bg-white p-6 rounded-xl shadow-sm border border-gray-200 text-center">
-            <div class="text-4xl">💰</div>
-            <h3 class="mt-4 font-semibold text-lg">Terjangkau</h3>
-            <p class="mt-2 text-sm text-gray-600">
-              Mulai dari Rp 10.000, kualitas tetap premium.
-            </p>
-          </div>
-
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div>
+          <div class="w-8 h-8 rounded-md bg-neutral-100 flex items-center justify-center text-sm">&#9889;</div>
+          <h3 class="mt-4 font-semibold text-neutral-900">Cepat</h3>
+          <p class="mt-1.5 text-sm text-neutral-500 leading-relaxed">Pesanan siap dalam 5 menit. Tanpa antre, tanpa ribet.</p>
+        </div>
+        <div>
+          <div class="w-8 h-8 rounded-md bg-neutral-100 flex items-center justify-center text-sm">&#127793;</div>
+          <h3 class="mt-4 font-semibold text-neutral-900">Biji Lokal</h3>
+          <p class="mt-1.5 text-sm text-neutral-500 leading-relaxed">Dari petani lokal, disangrai segar setiap hari.</p>
+        </div>
+        <div>
+          <div class="w-8 h-8 rounded-md bg-neutral-100 flex items-center justify-center text-sm">&#10003;</div>
+          <h3 class="mt-4 font-semibold text-neutral-900">Terjangkau</h3>
+          <p class="mt-1.5 text-sm text-neutral-500 leading-relaxed">Mulai Rp 10.000. Kualitas premium, harga bersahabat.</p>
         </div>
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="px-6 py-16 text-center">
-      <h2 class="text-2xl font-bold text-gray-900">Siap ngopi bareng kita?</h2>
-      <p class="mt-2 text-gray-600">Kunjungi gerai terdekat atau pesan online.</p>
-      <a href="#" class="inline-block mt-6 bg-gray-900 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-700">
+    <!-- ===== DIVIDER ===== -->
+    <hr class="max-w-5xl mx-auto border-neutral-100" />
+
+    <!-- ===== CTA ===== -->
+    <section id="kontak" class="max-w-5xl mx-auto px-6 lg:px-8 py-20 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold text-neutral-900">Siap ngopi?</h2>
+      <p class="mt-2 text-neutral-500">Kunjungi gerai kami atau pesan langsung secara online.</p>
+      <a href="#" class="inline-block mt-6 text-sm font-medium bg-neutral-900 text-white px-6 py-2.5 rounded-md hover:bg-neutral-800 transition-colors">
         Hubungi Kami
       </a>
     </section>
 
-    <!-- FOOTER -->
-    <footer id="kontak" class="py-8 text-center text-sm text-gray-500 border-t border-gray-200">
-      © 2026 NgopiKita. Dibuat dengan ❤️ dan Tailwind CSS.
+    <!-- ===== FOOTER ===== -->
+    <footer class="border-t border-neutral-100">
+      <div class="max-w-5xl mx-auto px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-3">
+        <div class="flex items-center gap-2">
+          <img src="/assets/kopides-CCOIu31t.png" alt="Logo" class="h-5 w-5 rounded-full object-contain" />
+          <span class="text-xs font-semibold">Kopides</span>
+        </div>
+        <p class="text-xs text-neutral-400">&copy; 2026 Kopides</p>
+      </div>
     </footer>
 
   </body>
